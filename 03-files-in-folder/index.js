@@ -25,4 +25,4 @@ async function read(current) {
     }
 }
 
-read('secret-folder');
+read('secret-folder').then(()=>console.log('All done!'));
